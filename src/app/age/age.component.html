@@ -1,0 +1,12 @@
+<h1>Filter</h1>
+<p>{{slider}}</p>
+
+<form>
+   <span style='float: left;'>0</span>
+   <input style='width:300px; float: left;' type="range" min="0" max="100" [(ngModel)]="slider" name="test"/>
+   <span>100</span>
+</form>
+
+<ul>
+  <li *ngFor="let pp of people | filter:slider"> {{pp.age}} + {{pp.name}}</li>
+</ul>

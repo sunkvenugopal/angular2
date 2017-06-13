@@ -1,0 +1,8 @@
+.active{
+	color: #fff;
+	background-color: #000; border: medium none;
+}
+.tabs{float: left; width: 100%; height: auto; padding-left: 0px; margin: 0px; display: inline-flex; list-style: none; 
+	  text-align: center;}
+.tabs li{width: 33.333%; background-color: #ccc; margin-right: 5px; padding: 10px 15px;}
+.tabs li button{border: medium none;}

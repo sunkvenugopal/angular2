@@ -1,0 +1,24 @@
+<h2>Sorting the data using Order By filters.</h2>
+
+
+
+<table class="table table-bordered" style="margin-top: 15px; margin-left: 15px; width: 500px;">
+	<thead>
+	<tr>
+		 <td (click)="sort = 'name'; reverse = !reverse" style="font-weight: 800"> Name </td> 
+		 <td (click)="sort = 'number'; reverse = !reverse" style="font-weight: 800">Number</td> 
+		 <td (click)="sort = 'designation'; reverse = !reverse" style="font-weight: 800">Designation</td>
+		 <td (click)="sort = 'age'; reverse = !reverse" style="font-weight: 800">Age</td>
+	</tr>
+	</thead>
+
+	<tbody>
+		     <tr *ngFor="let item of designations | orderBy: sort : reverse">
+
+		           <td>{{item.name}}</td>  <td>{{item.number}}</td> <td>{{item.designation}}</td>  <td>{{item.age}}</td>
+
+		     </tr>
+	</tbody>  
+</table>
+
+

@@ -1,0 +1,26 @@
+
+<h1>Angular Filter to search data</h1>
+     
+<form style="margin-left: 15px;">
+    
+       <input type="text" [(ngModel)]='term' name="first" placeholder="search" style="padding: 6px 12px;" />
+     
+</form>
+
+
+
+<table class="table table-bordered" style="margin-top: 15px; margin-left: 15px; width: 500px;">
+	<thead>
+		     <tr>
+		     	   <td style="font-weight: 600">Name</td> <td style="font-weight: 600">Designation</td>
+		     </tr>
+	</thead>
+
+	<tbody>
+		     <tr *ngFor="let names of details | depPipe:term">
+
+		           <td>{{names.name}}</td>  <td>{{names.designation}}</td>
+
+		     </tr>
+	</tbody>
+</table>

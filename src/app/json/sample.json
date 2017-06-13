@@ -1,0 +1,37 @@
+[{
+	"id":1,
+	"name":"Prasad Rao",
+	"designation":"Tally Opertator",
+	"DOB":"02-03-1991"
+	
+},
+{
+	"id":2,
+	"name":"Raja Sekhar",
+	"designation":"Business Analyst",
+	"DOB":"06-12-1989"
+	
+},
+{
+	"id":3,
+	"name":"Rama Krishna",
+	"designation":"Senior Software Engineer",
+	"DOB":"12-12-1995"
+	
+},
+{
+	"id":4,
+	"name":"Ravi Kumar",
+	"designation":"Electrical Engineer",
+	"DOB":"03-11-1991"
+	
+},
+{
+
+	"id":5,
+	"name":"Phani Kumar",
+	"designation":"Mechanical Engineer",
+	"DOB":"12-12-1994"
+	
+}
+]

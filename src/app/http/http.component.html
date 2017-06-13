@@ -1,0 +1,22 @@
+<h1>HTTP Services</h1>
+
+<ul class="details" style="float: left; width: 100%;">
+<li *ngFor="let a of cDetails"> {{a.name}} - {{a.designation}} - {{a.age}}</li>
+</ul>
+
+<table class=" details table-responsive table-bordered">
+<thead>
+<tr>
+	<td style="padding: 6px;">Name of the Employee</td> <td style="padding: 6px;">Designation</td> <td style="padding: 6px;">Age</td>
+</tr>
+</thead>
+<tbody>
+	<tr *ngFor="let a of cDetails">
+		<td>{{a.name}}</td> <td>{{a.designation}}</td> <td>{{a.age}}</td> 
+	</tr>
+</tbody>
+</table>
+<style type="text/css">
+	.details{float: left;}
+	.details tbody tr td{padding: 6px;}
+</style>
